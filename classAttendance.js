@@ -11,4 +11,9 @@ const classList = [
 
 const classAttendaceCount = {};
 
+classList.forEach(function(classObject) {
+  const [title, numAttendees] = classObject;
+  classAttendaceCount[title] = numAttendees;
+});
+
 console.log(classAttendaceCount);

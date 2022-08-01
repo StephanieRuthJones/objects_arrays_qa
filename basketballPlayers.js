@@ -29,5 +29,15 @@ const basketballPlayers = [
 //create a new array of strings called playerProfiles that describes the basketball players in the basketballPlayers array
 //If the player has any rating greater than 4, the string should read "[player name] is a basketball star"
 //If the player does not have any rating greater than 4, the string should read "[player name] is a basketball dud"
+const playerProfiles = basketballPlayers.map(player => {
+    const {name, freeThrowRating, offenseRating, defenseRating} = player
+    if(moreThanFour(freeThrowRating) || moreThanFour(offenseRating) || moreThanFour(defenseRating)){
+        return `${name} is a basketball star`
+    }
+    return `${name} is a basketball dud`
+})
 
+function moreThanFour(rating) {
+  return rating > 4
+}
 console.log(playerProfiles);
