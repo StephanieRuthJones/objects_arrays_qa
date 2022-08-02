@@ -56,4 +56,3 @@ const books = [
 // use only .map(), .find() and .filter()
 
 // YOUR CODE GOES HERE
-
