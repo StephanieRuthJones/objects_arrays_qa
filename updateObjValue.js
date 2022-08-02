@@ -9,8 +9,11 @@ function readByAnotherAuthor(book) {
 function addReaderName(book) {
     if (readByAnotherAuthor(book)){
         const { title } = books[book.readBy];
+        //Spread Operator […spread] - opposite to rest parameter, 
+        //where rest parameter collects items into an array, 
+        //the spread operator unpacks the collected elements into single elements.
         const editedbook = {
-            ...book,
+            ...book, 
             readBy: title
         };
 

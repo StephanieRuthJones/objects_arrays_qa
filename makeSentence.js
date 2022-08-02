@@ -1,5 +1,11 @@
 
 // Use the rest parameter to create a makeSentence function that concatenates an unlimited amount of strings
+//Rest Parameter [ …rest] 
+//A collection of all remaining elements (hence, the name rest, as in “the rest of the elements”) into an array.
+
+//Spread Operator […spread] - opposite to rest parameter, 
+//where rest parameter collects items into an array, 
+//the spread operator unpacks the collected elements into single elements.
 
 // TIP: Make sure to test your code with different values. For example,
 // makeSentence() should return an empty string
@@ -27,6 +33,7 @@ function makeSentence(...strings){
         return acc
     }, "")   
 }
+
 makeSentence()
 makeSentence("I", "love", "JavaScript" )
 makeSentence(1, 2, 3)
