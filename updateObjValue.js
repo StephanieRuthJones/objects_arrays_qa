@@ -12,6 +12,7 @@ function addReaderName(book) {
         //Spread Operator […spread] - opposite to rest parameter, 
         //where rest parameter collects items into an array, 
         //the spread operator unpacks the collected elements into single elements.
+        //resource: https://javascript.plainenglish.io/es6-spread-parameter-vs-rest-operator-5e3c924c4e1f
         const editedbook = {
             ...book, 
             readBy: title
