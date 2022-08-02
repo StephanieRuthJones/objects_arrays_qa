@@ -8,7 +8,7 @@ const classList = [
 //Add each class title to the classAttendanceCount object as a key
 //Add each class' number of attendees to the classAttendanceCount object as the class title's value
 //Log classAttendanceCount to ensure you have succeeded in the above tasks
-
+//Array methods cheatsheet: https://clubmate.fi/array-cheat-sheet
 const classAttendaceCount = {};
 
 
