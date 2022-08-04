@@ -1,4 +1,4 @@
-const books = [
+const books = [ //an array of book objects with author and other info
   {
     "id": 0,
     "authorFirstName": "Leo",
@@ -54,5 +54,12 @@ const books = [
 // if a book was read by an author on the list, 
 // replace the author's index (number) with the author's name
 // use only .map(), .find() and .filter()
+
+// PROBLEM SOLVING PROCESS
+//read instructions
+//describe existing code
+//read instructions
+//break instructions into steps
+//complete each step to solve the problem
 
 // YOUR CODE GOES HERE
